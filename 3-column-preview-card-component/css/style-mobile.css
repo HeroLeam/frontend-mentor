@@ -1,0 +1,186 @@
+/* -------------------- Mobile -------------------- */
+
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Lexend Deca', sans-serif; */
+
+@media only screen and (orientation: portrait) {
+  body {
+    max-width: 375px;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .geral-block {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+
+  .sedans-block {
+    width: 260px;
+    height: 400px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+
+  .sedans-image {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .title-sedans {
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+  }
+
+  .description-sedans {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: auto;
+  }
+
+  .button-sedans {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 30px;
+    width: 120px;
+    padding: 11px;
+  }
+
+  .button-sedans:hover {
+    background-color: hsl(31, 77%, 52%);
+    height: auto;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+
+  .suvs-block {
+    width: 260px;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+
+  .suvs-image {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .title-suvs {
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+  }
+
+  .description-suvs {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: auto;
+  }
+
+  .button-suvs {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 30px;
+    width: 120px;
+    padding: 11px;
+  }
+
+  .button-suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+
+  .luxury-block {
+    width: 260px;
+    height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+
+  .luxury-image {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .title-luxury {
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+  }
+
+  .description-luxury {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: auto;
+  }
+
+  .button-luxury {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 30px;
+    width: 120px;
+    padding: 11px;
+  }
+
+  .button-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
