@@ -1,6 +1,6 @@
 # Frontend Mentor
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/HeroLeam/frontend-mentor/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](./LICENSE)
 
 Repositório de estudos do Frontend Mentor.
 
